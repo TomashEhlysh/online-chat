@@ -1,0 +1,54 @@
+{
+    "menu": {
+        "text1": "Головна",
+        "text2": "Глобальний чат",
+        "text3": "Групові чати"
+    },
+    "login": {
+        "email": "Email",
+        "login": "Логін",
+        "password": "Пароль",
+        "conf_password": "Підтвердити пароль",
+        "separator": "Або увійдіть через Google",
+        "singIn": "Увійти",
+        "register": "Зареєструватись",
+        "back": "Назад",
+        "thanks_title": "Дякую!",
+        "thanks_text": "Дякуюємо за реєстрацію. Прохання перейти до особистої пошти (яку ви вказали) та підтвердити її",
+        "need_sign_in": "Потрібно увійти на сайт"
+    },
+    "Global-chat": {
+        "title": "Глобальний чат",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptatum error voluptatibus ad placeat nobis atque minima corporis rerum minus maiores non, illum cupiditate velit numquam dicta provident voluptatem. Quisquam!",
+        "chatInfo": {
+            "usersTitle": "Користувачі онлайн:",
+            "privatTitle": "Приватні чати",
+            "error": "Відсутнє повідомлення"
+        }
+    },
+    "Group-chat": {
+        "title": "Груповий чат",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptatum error voluptatibus ad placeat nobis atque minima corporis rerum minus maiores non, illum cupiditate velit numquam dicta provident voluptatem. Quisquam!",
+        "chatInfo": {
+            "usersTitle": "Користувачі онлайн:",
+            "privatTitle": "Приватні чати",
+            "error": "Відсутнє повідомлення"
+        },
+        "chatTable": {
+            "header1": "Назва",
+            "header2": "Мова",
+            "header3": "Створено",
+            "header4": "Автор",
+            "header5": "Онлайн",
+            "join": "Увійти",
+            "empty": "Групові чати відсутні",
+            "addInput1": "Назва чату",
+            "addInput2": "Мова чату",
+            "addButton": "Додати чат"
+        }
+    },
+    "Chat": {
+        "title": "Ви під'єднались до чату: ",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptatum error voluptatibus ad placeat nobis atque minima corporis rerum minus maiores non, illum cupiditate velit numquam dicta provident voluptatem. Quisquam!"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "menu": {
+        "text1": "Home",
+        "text2": "Global Chat",
+        "text3": "Group Chats"
+    },
+    "login": {
+        "email": "Email",
+        "login": "Login",
+        "password": "Password",
+        "conf_password": "Confirm Password",
+        "separator": "Or login by Google",
+        "singIn": "Login",
+        "register": "Register",
+        "back": "Back",
+        "thanks_title": "Thanks!",
+        "thanks_text": "Thank you for registering. Please go to your personal email (which you said) and confirm it"
+    },
+    "Global-chat": {
+        "title": "Global chat",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptatum error voluptatibus ad placeat nobis atque minima corporis rerum minus maiores non, illum cupiditate velit numquam dicta provident voluptatem. Quisquam!",
+        "chatInfo": {
+            "usersTitle": "Users online:",
+            "privatTitle": "Privat chats",
+            "error": "There is no message"
+        }
+    },
+    "Group-chat": {
+        "title": "Group chat",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptatum error voluptatibus ad placeat nobis atque minima corporis rerum minus maiores non, illum cupiditate velit numquam dicta provident voluptatem. Quisquam!",
+        "chatInfo": {
+            "usersTitle": "Users online:",
+            "privatTitle": "Privat chats",
+            "error": "There is no message"
+        }
+    }
+}

@@ -1,0 +1,112 @@
+.header{
+    padding: 24px 0;
+    background: #fff;
+    box-shadow: -2px 10px 5px -4px rgba(0,0,0,0.2);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.login{
+    background: #fff;
+    border-radius: 25px;
+}
+.login .p-dialog-header{
+    padding: 10px 10px 10px 20px;
+}
+.login .p-dialog-title{
+    font-size: 40px;
+    font-weight: 600;
+}
+.login .p-dialog-content{
+    padding: 10px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+}
+.login-label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    width: 100%;
+}
+.login-label .p-inputtext{
+    width: 100%;
+}
+.login-input{
+    margin-top: 8px;
+}
+.login-separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 16px;
+}
+.login-separator::before,
+.login-separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #ced4da;
+}
+.login-separator:not(:empty)::before {
+    margin-right: .25em;
+}
+.login-separator:not(:empty)::after {
+    margin-left: .25em;
+}
+.login-google{
+    margin: 24px auto;
+}
+.login-buttons{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    gap: 0 24px;
+}
+.login-thanks{
+    padding: 16px 24px;
+}
+.login-thanks{
+    line-height: 1.2em;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    margin-left: auto;
+    gap: 0 48px;
+}
+.nav-link{
+    color: #000;
+}
+.nav-lang_list{
+    margin-left: 48px;
+    position: relative;
+}
+.lang-list_item{
+    cursor: pointer;
+}
+.lang-list_change{
+    position: absolute;
+    top: 25px;
+}
+.nav-login{
+    margin-left: 48px;
+}
+@media (max-width: 650px) {
+    .nav-list{
+        gap: 15px;
+        flex-direction: column;
+    }
+    .login{
+        width: 80%;
+    }
+    .login .p-dialog-content{
+        width: 100%;
+    }
+}

@@ -1,0 +1,133 @@
+.chat{
+    padding: 80px 0;
+}
+.chat-header{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 60px;
+    font-weight: 600;
+}
+.chat-content{
+    display: flex;
+    border: 2px solid #666;
+    max-height: 500px;
+    margin-top: 80px;
+}
+.chat-users{
+    width: 13%;
+    border-right: 1px solid #666;
+    padding: 20px;
+    overflow: auto;
+}
+.chat-title{
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+.chat-users_list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0;
+}
+.chat-items{
+    cursor: pointer;
+    font-size: 14px;
+    color: #666;
+}
+.chat-body{
+    width: 87%;
+    padding: 40px;
+    overflow: auto;
+}
+.chat-body_item{
+    display: flex;
+    flex-direction: column;
+}
+.chat-body_message{
+    margin-bottom: 32px;
+}
+.chat-body_message span{
+    font-size: 12px;
+    color: #666;
+}
+.chat-body_message div{
+    font-size: 14px;
+    max-width: 85%;
+    margin: 0 50px;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 10px 20px;
+    position: relative;
+}
+.chat-message{
+    position: relative;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.chat-message .ql-container.ql-snow{
+    border: none;
+}
+.chat-emoji{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.chat-message_input{
+    max-height: 100px !important;
+}
+.chat-message .ql-toolbar{
+    display: none;
+}
+.chat-message .ql-editor{
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+.chat-message_emoji{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    z-index: 1;
+}
+.chat-message_btn{
+    margin-top: 8px;
+    margin-left: auto;
+}
+@media (max-width: 1000px) {
+    .chat-content{
+        position: relative;
+    }
+    .chat-users{
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 250px;
+        background: #fff;
+        animation: 0.5s linear 0s alternate openUsers;
+        z-index: 1;
+    }
+    .chat-users_title{
+        display: flex;
+        justify-content: space-between;
+    }
+    .chat-body_users{
+        cursor: pointer;
+    }
+    @keyframes openUsers {
+        0% {
+            left: -300px;
+        }
+        100% {
+            left: 0;
+        }
+    }
+    .chat-body{
+        width: 100%;
+    }
+}
+@media (max-width: 650px) {
+    .chat-body_message div{
+        margin: 8px 13px 0;
+    }
+}
